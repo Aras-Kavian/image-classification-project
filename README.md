@@ -33,8 +33,6 @@ image-classification-project/
 - ├── train.py
 - ├── predict.py
 - └── vectorizer.pkl
-- assets/
-- └── demo_screenshot.png
 - app_streamlit.py
 - requirements.txt
 - README.md
