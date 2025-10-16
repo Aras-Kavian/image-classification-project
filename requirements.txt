@@ -1,29 +1,39 @@
-# TensorFlow
+# TensorFlow for deep learning
 tensorflow==2.20.0
 
-# Numpy (TF 2.20 نیاز به >=1.26 دارد)
+# Numpy compatible with TensorFlow 2.20 and Python 3.11
 numpy==1.26.4
 
-# Protobuf compatible with TF 2.20
+# Protobuf compatible with TensorFlow 2.20
 protobuf>=5.28.0
 
-# Streamlit
+# Streamlit for the web app
 streamlit==1.38.0
 
-# TensorFlow Datasets
+# TensorFlow Datasets for loading datasets
 tensorflow-datasets==4.9.2
 
-# Matplotlib
+# Matplotlib for plotting
 matplotlib==3.7.1
 
-# Pillow compatible with Python 3.11
+# Pillow for image handling (Python 3.11 compatible)
 Pillow==12.0.1
 
-# Optional for notebooks or Streamlit kernel support
+# Optional for Jupyter / kernel support
 ipykernel==7.22.0
 
-# Rich for better logging in Streamlit
+# Rich and dependencies for better exception logging and UI
 rich==14.2.0
 markdown-it-py==4.0.0
 mdurl==0.1.2
 pygments==2.19.2
+
+# Additional packages for compatibility
+absl-py==2.3.1
+astunparse==1.6.3
+flatbuffers==25.9.23
+gast==0.6.0
+google-pasta==0.2.0
+libclang==18.1.1
+opt_einsum==3.4.0
+packaging==25.0
