@@ -1,0 +1,7 @@
+tensorflow
+tensorflow-datasets
+Pillow
+numpy
+matplotlib
+ipykernel
+streamlit
