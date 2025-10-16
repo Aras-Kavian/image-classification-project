@@ -1,7 +1,10 @@
-# TensorFlow (CPU version) compatible with Python 3.11
+# TensorFlow
 tensorflow==2.20.0
 
-# Protobuf version compatible with TF 2.20
+# Numpy (سازگار با TF 2.20 و Python 3.11)
+numpy==1.26.4
+
+# Protobuf (سازگار با TF)
 protobuf==3.20.3
 
 # Streamlit
@@ -10,14 +13,17 @@ streamlit==1.38.0
 # TensorFlow Datasets
 tensorflow-datasets==4.9.2
 
-# Numpy compatible with Python 3.11
-numpy==1.25.2
-
-# Matplotlib compatible with Python 3.11
+# Matplotlib
 matplotlib==3.7.1
 
-# Pillow for image handling
-Pillow==12.1.0
+# Pillow (نسخه‌ای که روی Python 3.11 موجود است)
+Pillow==9.5.0
 
-# Optional (if you need IPython kernels, e.g., for notebooks)
+# Optional for notebooks or Streamlit kernel support
 ipykernel==7.0.1
+
+# Rich for better logging in Streamlit
+rich==14.2.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pygments==2.19.2
