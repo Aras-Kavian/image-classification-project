@@ -8,7 +8,7 @@ This project demonstrates a complete workflow: data loading with TensorFlow Data
 ## 🚀 Demo
 
 👉 [Live Streamlit App](https://ai1900-image-classification.streamlit.app/)  
-(Upload an image of a cat or dog and get the prediction in real-time.)
+- (Upload an image of a cat or dog and get the prediction in real-time.)
 
 ---
 
@@ -24,16 +24,20 @@ This project demonstrates a complete workflow: data loading with TensorFlow Data
 ## 🧱 Project Structure
 
 image-classification-project/
-├── data/
-├── notebooks/
-│   └── training_notebook.ipynb
-├── src/
-│   ├── train.py
-│   ├── predict.py
-│   └── cat_dog_cnn_model.h5
-├── README.md
-├── requirements.txt
-└── .gitignore
+- data/
+- └── image_samples/ cat1.jpg ... dog3.jpg
+- notebook/
+- └── image_classification_training.ipynb
+- src/
+- ├── app.py
+- ├── train.py
+- ├── predict.py
+- └── vectorizer.pkl
+- assets/
+- └── demo_screenshot.png
+- app_streamlit.py
+- requirements.txt
+- README.md
 
 ---
 
@@ -41,8 +45,8 @@ image-classification-project/
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/Aras-Kavian/image-classification-project.git
-cd image-classification-project
+- git clone https://github.com/Aras-Kavian/image-classification-project.git
+- cd image-classification-project
 
 ### 2️⃣ Install Dependencies
 
@@ -52,24 +56,24 @@ pip install -r requirements.txt
 
 If you want to retrain the model from scratch:
 
-python src/train.py
+- python src/train.py
 
-The trained model will be saved at:
+- The trained model will be saved at:
 
-src/cat_dog_cnn_model.h5
+- src/cat_dog_cnn_model.h5
 
 ### 4️⃣ Run the Streamlit App
 
 streamlit run src/app.py
 
-Then open your browser at http://localhost:8501.
+- Then open your browser at http://localhost:8501.
 
 ⸻
 
 ## 📓 Notebook
 
 For a full step-by-step tutorial of dataset loading, model training, and evaluation, check out the notebook:
-👉 notebooks/training_notebook.ipynb
+- 👉 notebooks/training_notebook.ipynb
 
 ⸻
 
@@ -81,8 +85,29 @@ For a full step-by-step tutorial of dataset loading, model training, and evaluat
 
 ⸻
 
-## 👤 Author
+## 📁 Project Structure
+sentiment-analysis-project/
+- data/
+- └── IMDB Dataset.csv
+- notebook/
+- └── sentiment_analysis_training.ipynb
+- src/
+- ├── app.py
+- ├── app_streamlit.py
+- ├── metrics.json
+- ├── train.py
+- ├── predict.py
+- ├── sentiment_model.pkl
+- └── vectorizer.pkl
+- assets/
+- └── demo_screenshot.png
+- requirements.txt
+- README.md
 
-Aras Kavian
-🔗 GitHub
-✅ این متن دقیقاً آماده‌ی استفاده است؛ کافیست همین را در فایل `README.md` بذاری و commit کنی.
+## 🌍 Author & Links
+#### 👤 Aras Kavyani / AI 1900
+- 🔗 [GitHub](#www.github.com/Aras-Kavian)
+- 🔗 [LinkedIn](#www.linkedin.com/in/aras-kavyani)
+- 🔗 [LaborX Profile](#www.laborx.com/customers/users/id409982?ref=409982)
+- 🔗 [CryptoTask Profile](#www.cryptotask.org/en/freelancers/aras-kavyan/46480)
+- 🔗 [Twitter](#www.x.com/ai_1900?s=21)
