@@ -85,25 +85,6 @@ For a full step-by-step tutorial of dataset loading, model training, and evaluat
 
 ⸻
 
-## 📁 Project Structure
-sentiment-analysis-project/
-- data/
-- └── IMDB Dataset.csv
-- notebook/
-- └── sentiment_analysis_training.ipynb
-- src/
-- ├── app.py
-- ├── app_streamlit.py
-- ├── metrics.json
-- ├── train.py
-- ├── predict.py
-- ├── sentiment_model.pkl
-- └── vectorizer.pkl
-- assets/
-- └── demo_screenshot.png
-- requirements.txt
-- README.md
-
 ## 🌍 Author & Links
 #### 👤 Aras Kavyani / AI 1900
 - 🔗 [GitHub](#www.github.com/Aras-Kavian)
