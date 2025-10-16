@@ -1,14 +1,23 @@
-# tensorflow with compatible protobuf
+# TensorFlow (CPU version) compatible with Python 3.11
 tensorflow==2.20.0
+
+# Protobuf version compatible with TF 2.20
 protobuf==3.20.3
 
 # Streamlit
 streamlit==1.38.0
 
-# Datasets
+# TensorFlow Datasets
 tensorflow-datasets==4.9.2
 
-# Other common packages
-numpy==1.26.0
+# Numpy compatible with Python 3.11
+numpy==1.25.2
+
+# Matplotlib compatible with Python 3.11
 matplotlib==3.7.1
+
+# Pillow for image handling
 Pillow==12.1.0
+
+# Optional (if you need IPython kernels, e.g., for notebooks)
+ipykernel==7.0.1
